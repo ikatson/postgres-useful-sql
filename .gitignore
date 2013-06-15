@@ -6,3 +6,5 @@
 *.orig
 *.DS_Store
 .idea/
+adm.sql
+tmp
