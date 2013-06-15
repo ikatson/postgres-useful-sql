@@ -34,3 +34,5 @@ WHERE
 tsize.rel_oid = tstat.relid
 ORDER BY
 tstat.seq_scan * tsize.size_raw DESC;
+
+COMMIT;
