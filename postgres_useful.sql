@@ -219,7 +219,6 @@ FROM pg_class c
   INNER JOIN pg_database d
     ON (b.reldatabase = d.oid AND d.datname = current_database())
 GROUP BY c.oid,c.relname
-ORDER BY 3 DESC
-LIMIT 10;
+ORDER BY 3 DESC;
 
 COMMIT;
